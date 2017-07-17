@@ -1,7 +1,7 @@
 settings_disable_sections
 =========================
 
-With this plugin you can disable complete sections in the Roundcube settings menu
+With this plugin you can disable complete sections in the Roundcube settings menu.
 
 Setup
 -----
@@ -13,13 +13,13 @@ The config should look like this:
 $config['settings_disable_sections'] = array('general');
 ```
 
-CONTACT
+Contact
 -------
 Author:   Carlo Vollebregt (carlovollebregt@eleven.nl)
 
 Bug reports through github (https://github.com/elevennl/settings_disable_sections/issues)
 
-LICENSE
+License
 -------
 
 This plugin is distributed under the GNU General Public License Version 2.

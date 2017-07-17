@@ -4,12 +4,12 @@
  +-----------------------------------------------------------------------+
  | Copyright (C) 2017, Carlo Vollebregt                                  |
  |                                                                       |
- | Licensed under the GNU General Public License version 3 or            |
+ | Licensed under the GNU General Public License version 2 or            |
  | any later version with exceptions for skins & plugins.                |
  | See the README file for a full license statement.                     |
  |                                                                       |
  | PURPOSE:                                                              |
- |   remove settings sections                                            |
+ |   remove complete settings sections                                   |
  +-----------------------------------------------------------------------+
  | Author: Carlo Vollebregt <carlovollebregt@eleven.nl>                  |
  +-----------------------------------------------------------------------+
@@ -28,7 +28,7 @@ class settings_disable_sections extends rcube_plugin
 	 */
 	public function init()
 	{
-		$this->add_hook('preferences_sections_list',array($this, 'disable_sections'));
+		$this->add_hook('preferences_sections_list', array($this, 'disable_sections'));
 	}
 
 	/**
