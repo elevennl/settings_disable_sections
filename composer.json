@@ -1,0 +1,32 @@
+{
+  "name": "elevennl/settings_disable_sections",
+  "type": "roundcube-plugin",
+  "description": "Remove complete sections from the settings",
+  "keywords": ["roundcube", "preferences", "section"],
+  "homepage": "https://github.com/elevennl/settings_disable_sections",
+  "license": "GPL-2.0",
+  "authors": [
+    {
+      "name": "Carlo Vollebregt",
+      "email": "carlovollebregt@eleven.nl",
+      "homepage": "https://www.eleven.nl",
+      "role": "Developer"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://plugins.roundcube.net"
+    }
+  ],
+  "require":
+  {
+    "php": ">=5.3.0",
+    "roundcube/plugin-installer": ">=0.1.6"
+  },
+  "extra":{
+    "roundcube":{
+      "min-version": "1.0"
+    }
+  }
+}
